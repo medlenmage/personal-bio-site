@@ -1,3 +1,46 @@
+.fullName {
+  text-align: center;
+  display: inline-block;
+}
+
+.fullPage {
+  text-align: center;
+  display: inline-block;
+}
+
+#projectsPage {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-around;
+  position: relative; 
+}
+
+.projectsHeader {
+  text-align: center;
+  display: inline-block;
+}
+
+.projectCards {
+  border: 2px solid goldenrod;
+  box-shadow: 1px 3px;
+}
+
+.projectTitle {
+  border: 1px dotted lightblue;
+}
+
 body {
-  background-color: green
+  background-color: forestgreen;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    font-weight: bold;
 }
