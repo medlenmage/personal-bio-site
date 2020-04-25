@@ -2,12 +2,33 @@ const projects = [
   {
     title: "pet adoption", 
   screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
-  description: "this is just a class assignment im using for a filler", // A good project description includes 'the what', 'the why', and 'the how'.
+  description: "This is just a class assignment im using for a filler", // A good project description includes 'the what', 'the why', and 'the how'.
   technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
   available: true,
   url: "https://github.com/medlenmage/personal-bio-site", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
   githubUrl: "https://github.com/medlenmage/personal-bio-site"
-  }
+  },
+  {
+    title: "bio-site", 
+  screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
+  description: "This is just a class assignment im using for a filler", // A good project description includes 'the what', 'the why', and 'the how'.
+  technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+  available: true,
+  url: "https://github.com/medlenmage/personal-bio-site", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+  githubUrl: "https://github.com/medlenmage/personal-bio-site"
+  },
+  {
+    title: "product card site", 
+  screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
+  description: "This is just a class assignment im using for a filler", // A good project description includes 'the what', 'the why', and 'the how'.
+  technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+  available: true,
+  url: "https://github.com/medlenmage/personal-bio-site", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+  githubUrl: "https://github.com/medlenmage/personal-bio-site"
+  },
+
+  
+   
 ]
 
 const printToDom = (selector, textToPrint) => {
@@ -20,14 +41,13 @@ const createProjectCards = () => {
 
     for (let i = 0; i < projects.length; i++) {
     if (projects[i].available === true) {
-      domString += '<h3 class="projectsHeader">Projects</h3>'
       domString += '<div class="projectCards">'
       domString += `<header class="projectTitle"><h4 class="projectTitleHeader">${projects[i].title}</header>"`
-      domString += `<img class="projectScreenShot" rel="project screen shot" src="${projects[i].screenshot}"`
+      domString += `<img class="projectScreenShot" rel="project screen shot" src="${projects[i].screenshot}">`
       domString += `<p class="projectDescription">${projects[i].description}</p>`
       domString += `<p class="techUsed">${projects[i].technologiesUsed}</p>` 
-      domString += `<p url="url">${projects[i].url}</p>`
-      domString += `<p url="githubUrl">${projects[i].githubUrl}</p>`
+      domString += `<p class="url">${projects[i].url}</p>`
+      domString += `<p class="githubUrl">${projects[i].githubUrl}</p>`
       domString += '</div>'  
   }
 }
