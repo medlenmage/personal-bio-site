@@ -42,7 +42,7 @@ const createProjectCards = () => {
     for (let i = 0; i < projects.length; i++) {
     if (projects[i].available === true) {
       domString += '<div class="projectCards">'
-      domString += `<header class="projectTitle"><h4 class="projectTitleHeader">${projects[i].title}</header>"`
+      domString += `<header class="projectTitle"><h4 class="projectTitleHeader">${projects[i].title}</header>`
       domString += `<img class="projectScreenShot" rel="project screen shot" src="${projects[i].screenshot}">`
       domString += `<p class="projectDescription">${projects[i].description}</p>`
       domString += `<p class="techUsed">${projects[i].technologiesUsed}</p>` 
