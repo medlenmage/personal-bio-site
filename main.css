@@ -103,3 +103,9 @@ a {
 .email {
   color: blue;
 }
+
+.projectsHeader {
+  font-family: 'Mukta', sans-serif;
+  text-align: center;
+  display: block;
+}
