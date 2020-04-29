@@ -47,11 +47,17 @@ ul {
   bottom: 20px;
 }
 
-.fullName {
-  display: block;
-  text-align: center;
-  font-family: 'Mukta', sans-serif;
+#name {
+  /* display: block; */
+  
+  color: #537A5A;
+  
 }
+
+/* .fullName {
+  padding-left: 15px;
+  color: #9AE19D;
+} */
 
 .techUsed {
   background-color: #5A5353;
@@ -108,4 +114,17 @@ a {
   font-family: 'Mukta', sans-serif;
   text-align: center;
   display: block;
+}
+
+
+#nav-bar {
+  font-family: 'Mukta', sans-serif;
+  font-weight: bold;
+  color: #537A5A;
+}
+
+.navbar-nav li a {
+  font-family: 'Mukta', sans-serif;
+  font-weight: bold;
+  color: #537A5A;
 }
