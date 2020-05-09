@@ -5,17 +5,17 @@ const projects = [
   description: "This is just a class assignment im using for a filler", // A good project description includes 'the what', 'the why', and 'the how'.
   technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
   available: true,
-  url: "https://github.com/medlenmage/personal-bio-site", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
-  githubUrl: "https://github.com/medlenmage/personal-bio-site"
+  url: "https://github.com/medlenmage/jm-pet-adoption", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+  githubUrl: "https://github.com/medlenmage/jm-pet-adoption"
   },
   {
-    title: "bio-site", 
+    title: "sorting hat", 
   screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
   description: "This is just a class assignment im using for a filler", // A good project description includes 'the what', 'the why', and 'the how'.
   technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
   available: true,
-  url: "https://github.com/medlenmage/personal-bio-site", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
-  githubUrl: "https://github.com/medlenmage/personal-bio-site"
+  url: "https://github.com/medlenmage/sorting-hat", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+  githubUrl: "https://github.com/medlenmage/sorting-hat"
   },
   {
     title: "product card site", 
@@ -23,8 +23,8 @@ const projects = [
   description: "This is just a class assignment im using for a filler", // A good project description includes 'the what', 'the why', and 'the how'.
   technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
   available: true,
-  url: "https://github.com/medlenmage/personal-bio-site", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
-  githubUrl: "https://github.com/medlenmage/personal-bio-site"
+  url: "https://github.com/medlenmage/product-cards", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+  githubUrl: "https://github.com/medlenmage/product-cards"
   },
 
   
