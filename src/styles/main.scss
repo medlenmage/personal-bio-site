@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+// <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Mukta:wght@300&display=swap" rel="stylesheet">
 #projectsPage {
   display: flex;
   flex-wrap: wrap;
@@ -46,14 +47,16 @@ ul {
 .page-footer {
   padding-top: 20px;
   bottom: 20px;
+  background-color: #14385f !important;
+  color: lightgrey;
 }
 
 #name {
-  color: ##ECEFED;
+  color: #ECEFED;
 }
 
 .techUsed {
-  background-color: #5A5353;
+  background-color: #ECEFED;
 }
 
 p.techUsed {
@@ -95,11 +98,11 @@ p.githubUrl {
 }
 
 a {
-  color: blue;
+  color: #ECEFED;
 }
 
 .email {
-  color: blue;
+  color: #ECEFED;
 }
 
 .projectsHeader {
@@ -126,12 +129,12 @@ a {
 }
 
 .contact-footer {
-  background-color: #2C302E;
+  background-color: blue;
   height: 140px;
 }
 
 .hero-img { 
-  filter:; 
+  // filter:; 
   width: 100%; 
   height: auto;
 } 
@@ -152,4 +155,16 @@ a {
 .home-link {
   font-size: x-large;
   float: left;
+}
+
+.bio-page {
+  display: none;
+}
+
+.tech-page {
+  display: none;
+}
+
+.projects-page {
+  display: none;
 }
