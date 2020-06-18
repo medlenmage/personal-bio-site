@@ -157,7 +157,7 @@ a {
   float: left;
 }
 
-.bio-page {
+.hideBio {
   display: none;
 }
 
@@ -167,4 +167,8 @@ a {
 
 .projects-page {
   display: none;
+}
+
+.showBio {
+  display: block;
 }
