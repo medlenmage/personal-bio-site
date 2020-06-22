@@ -26,6 +26,24 @@ const projects = [
     url: 'https://github.com/medlenmage/product-cards',
     githubUrl: 'https://github.com/medlenmage/product-cards',
   },
+  {
+    title: 'Pants Culottes Group Project',
+    screenshot: '../../screenshots/1st-screenshot.png',
+    description: 'This was a group assignment where u worked with 3 others to create a site showing and selling culotte pants.',
+    technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with Github',
+    available: true,
+    url: 'https://github.com/medlenmage/pants-culottes',
+    githubUrl: 'https://github.com/medlenmage/pants-culottes',
+  },
+  {
+    title: 'Tamogotchi',
+    screenshot: '../../../screenshots/tamogotchi.png',
+    description: 'This was a indivual class project that we were tasked to put a simple app resembling the tamogotchi devices of the past.',
+    technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with Github, js modules',
+    available: true,
+    url: 'https://github.com/medlenmage/Tamogotchi',
+    githubUrl: 'https://github.com/medlenmage/Tamogotchi',
+  },
 
 ];
 

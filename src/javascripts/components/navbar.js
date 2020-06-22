@@ -1,24 +1,27 @@
 const showBio = () => {
-  if (document.getElementById('bioPage').className === 'hideBio') {
-    document.getElementById('bioPage').classList.remove('hideBio');
-    document.getElementById('techPage').classList.add('hideTech');
-    document.getElementById('project-page').classList.add('hideProject');
+  if (document.getElementById('bioPage').className === 'hide') {
+    document.getElementById('bioPage').classList.remove('hide');
+    document.getElementById('techPage').classList.add('hide');
+    document.getElementById('project-page').classList.add('hide');
+    document.getElementById('heroImg').classList.add('hide');
   }
 };
 
 const showTech = () => {
-  if (document.getElementById('techPage').className === 'hideTech') {
-    document.getElementById('techPage').classList.remove('hideTech');
-    document.getElementById('bioPage').classList.add('hideBio');
-    document.getElementById('project-page').classList.add('hideProject');
+  if (document.getElementById('techPage').className === 'hide') {
+    document.getElementById('techPage').classList.remove('hide');
+    document.getElementById('bioPage').classList.add('hide');
+    document.getElementById('project-page').classList.add('hide');
+    document.getElementById('heroImg').classList.add('hide');
   }
 };
 
 const showProject = () => {
-  if (document.getElementById('project-page').className === 'hideProject') {
-    document.getElementById('project-page').classList.remove('hideProject');
-    document.getElementById('bioPage').classList.add('hideBio');
-    document.getElementById('techPage').classList.add('hideTech');
+  if (document.getElementById('project-page').className === 'hide') {
+    document.getElementById('project-page').classList.remove('hide');
+    document.getElementById('bioPage').classList.add('hide');
+    document.getElementById('techPage').classList.add('hide');
+    document.getElementById('heroImg').classList.add('hide');
   }
 };
 
