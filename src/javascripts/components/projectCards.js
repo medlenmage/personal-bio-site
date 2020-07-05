@@ -1,9 +1,14 @@
+import axios from 'axios';
 import print from '../helpers/utils';
-import projects from '../helpers/projectData';
+// import projects from '../helpers/projectData';
+import apiKeys from '../helpers/apiKeys.json';
+
+const baseUrl = apiKeys.firebaseConfig.databaseURL;
 
 const createProjectCards = () => {
   let domString = '';
-  const projectData = projects.getProjects();
+  // const projectData = projects.getProjects();
+  const projectData = axios.get(`${baseUrl}/projects.json}`);
 
   for (let i = 0; i < projectData.length; i += 1) {
     if (projectData[i].available === true) {
