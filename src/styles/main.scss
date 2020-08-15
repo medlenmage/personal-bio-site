@@ -1,6 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
-// <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Mukta:wght@300&display=swap" rel="stylesheet">
 #projectsPage {
   display: flex;
   flex-wrap: wrap;
@@ -9,9 +8,10 @@
   position: relative; 
 }
 
-.projectsHeader {
+.projectTitleHeader {
   text-align: center;
   display: inline-block;
+  color: #14385f;
 }
 
 .projectCards {
@@ -21,7 +21,6 @@
 }
 
 .projectTitle {
-  border: 1px solid blue;
   background-color: lightgrey;
   font-family: 'Mukta', sans-serif;
   display: block;
@@ -52,7 +51,7 @@ ul {
 }
 
 #name {
-  color: #ECEFED;
+  color: black;
 }
 
 .techUsed {
@@ -86,22 +85,26 @@ p {
 }
 
 p.projectDescription {
-  color: #ECEFED;
+  color: #14385f;
 }
 
 p.url {
-  color: #ECEFED;
+  color: #14385f;
 }
 
 p.githubUrl {
+  color: #14385f;
+}
+
+a.home-link {
   color: #ECEFED;
 }
 
-a {
+a:hover.home-link {
   color: #ECEFED;
 }
 
-.email {
+.footer-link {
   color: #ECEFED;
 }
 
@@ -133,8 +136,7 @@ a {
   height: 140px;
 }
 
-.hero-img { 
-  // filter:; 
+.hero-img {  
   width: 100%; 
   height: auto;
 } 
@@ -159,4 +161,13 @@ a {
 
 .hide {
   display: none;
+}
+
+#nav-button {
+  border: 0px !important;
+  background-color: #14385f !important; 
+}
+
+#techPage {
+  text-align: center;
 }

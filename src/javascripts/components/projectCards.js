@@ -1,10 +1,5 @@
-// import axios from 'axios';
 import print from '../helpers/utils';
 import projectData from '../helpers/data/projectData';
-// import projects from '../helpers/projectData';
-// import apiKeys from '../helpers/apiKeys.json';
-
-// const baseUrl = apiKeys.firebaseConfig.databaseURL;
 
 const createProjectCards = () => {
   projectData.getProjects()
@@ -12,14 +7,14 @@ const createProjectCards = () => {
       let domString = '';
       projects.forEach((project) => {
         domString += `
-          <div class="projectCards">';
-            <header class="projectTitle"><h4 class="projectTitleHeader">${project.title}</header>;
-            <img class="projectScreenShot" rel="project screen shot" src="${project.screenshot}">;
-            <p class="projectDescription">${project.description}</p>;
-            <p class="techUsed">${project.technologiesUsed}</p>;
-            <p class="url">${project.url}</p>;
-            <p class="githubUrl">${project.githubUrl}</p>;
-          </div>;
+          <div class="projectCards">
+            <header class="projectTitle"><h4 class="projectTitleHeader">${project.title}</header>
+            <img class="projectScreenShot" rel="project screen shot" src="${project.screenshot}">
+            <p class="projectDescription">${project.description}</p>
+            <p class="techUsed">${project.technologiesUsed}</p>
+            <a class="url" href="${project.url}">${project.url}</a>
+            <a class="githubUrl" href="${project.githubUrl}">${project.githubUrl}</a>
+          </div>
       `;
       });
       print.printToDom('#projectsPage', domString);
