@@ -1,7 +1,7 @@
 {
     "project1": {
     "title": "Nutshell-muntjac",
-    "screenshot": "../../screenshots/whalomVisitor.png",
+    "screenshot": "https://github.com/medlenmage/personal-bio-site/blob/master/screenshots/whalomVisitors.png?raw=true",
     "description": "This was a project encompassing everything our group had learned so far using html, css, scss, javascript, jquery, webpack, and firebase",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, Jquery, scss, webpack, and firebase",
     "available": "true",
@@ -10,7 +10,7 @@
   },
      "project2": {
     "title": "sorting hat",
-    "screenshot": "../../screenshots/sortHat.png",
+    "screenshot": "https://github.com/medlenmage/personal-bio-site/blob/master/screenshots/sortHat.png?raw=true",
     "description": "This solo project is a simple app that takes a name into a form and prints it to the dom in the form of a card. it randomly selects one of the 4 houses from harry potter and assigns it to them",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     "available": "true",
@@ -19,7 +19,7 @@
   },
     "project4": {
     "title": "Pants Culottes Group Project",
-    "screenshot": "../../screenshots/1st-screenshot.png",
+    "screenshot": "https://github.com/medlenmage/personal-bio-site/blob/master/screenshots/1st-screenshot.png?raw=true",
     "description": "This was a group assignment where u worked with 3 others to create a site showing and selling culotte pants.",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     "available": "true",
@@ -28,7 +28,7 @@
   },
   "prjoect5": {
     "title": "Nutshell-chital",
-    "screenshot": "../../../screenshots/clown1.png",
+    "screenshot": "https://github.com/medlenmage/personal-bio-site/blob/master/screenshots/clown1.png?raw=true",
     "description": "This was a project encompassing everything our group had learned so far using html, css, scss, javascript, jquery, webpack, and firebase",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, Jquery, scss, webpack, and firebase",
     "available": "true",

@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- TODO: Insert a title for your page -->
   <title>bio site for Joshua Medlen</title>
 </head>
 
@@ -14,8 +13,8 @@
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a src="index.html" class="home-link">Joshua Medlen</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <a href="index.html" class="home-link">Joshua Medlen</a>
       <div class="container justify-content-center">
         <ul class="navbar-nav">
           <li class="nav-item border-right px-1">
@@ -31,7 +30,6 @@
       </div>
     </div>
   </nav>
-  <!-- End Navigation -->
   <div class="hero-container" id="heroImg">
     <img class="hero-img" src="https://images.unsplash.com/photo-1483356256511-b48749959172?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
     <div class="logo">
@@ -39,39 +37,101 @@
     </div>
   </div>
     
-  <!-- Primary View -->
     <div class="hide" id="bioPage">
-      <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
       <h3 class="bio-page-header">Biopage</h3>
       <p>
-        My name is Joshua Medlen. I was born and raised in the Middle Tennessee area. Lived here all of my life and have loved it here.
-        I currently work for Metro Nashville Goverment in the Public Works department. I drive and operate various equipment but, mostly a tractor mower from spring to fall.
-        I want to get into development mostly for a career change. My current change is still pretty physicall intensive and, has alot of of stresses that come with working for a goverment department.
-        What i love about devlopment is multiple things. I've alway loved playing with technology and this gives a avenue to continue learning and devloping in the technological world.
-        I also love how creative it can be. From designing the webpage to discovering diffirent ways to apply code to websites and achieve the same or diffirent results. 
+        <h3>Brief Background</h3>
+        Hello and welcome to my bio-site! My name is Joshua Medlen. I was born, raised, and currently live in the greater Nashville area. I am currently employed by Metro Nashville Public works
+        Where i Work as an equipment operator driving a tractor. Not only do i operate but i also have to do routine maintenance, minor repairs, and sometimes train others on the equipment.
+        On occasion i assume the role of foreman over the crew and ensure others are performing their task optimally and conduct any repairs or resolve any issues a fellow crewmate has.
+      </p>
+      <h3>Why Web development?</h3>
+      <p>
+        I've always had a passion for technology and drive to understand more about it. From tinkering with broken PCs to trying to understand coding from a early age the groundwork
+        had been laid already. What drove me to make the leap to pursue it more? My current job/career path has become stale and has put alot of undue stress. It also has put alot of
+        physical strain on my body where even at this early stage of my life i feel the after effects from the work i do. So in the end i'm looking to pursue something i've had a passion for
+        and be able to get out of a physically demanding job before it puts to much damage on my body and create a terrible quailty of life for my future.
+      </p>
+      <h3>What do i love about development?</h3>
+      <p>
+        I've always had a knack and a love for tinkering and problem solving. The oppurtunity to create and work through porblems by myself and a group has definitly brought more attraction to
+        development. Being able to create things from a few lines of code and watching it display to a webpage is fascinating to me. I also love helping others with problems and the oppurtunity to
+        look into someone elses world so to speak and see how they write code and decipher it and help solve their issues has been exciting and has made this field more attractive than ever.
+      </p>
+      <h3>What makes me a good developer?</h3>
+      <p>
+        My determination to resolve problems and issues. My humblness to ask for help when i feel a task or problem needs to heads more than one. My ability to gather information on a particular 
+        issue to gain the knowledge or aquire the skills/toolset needed to get a job done. My ability to work/play well with others and work as a team and to present my thoughts to the group to 
+        get better insight to issues and maybe look at problems from a whole new angle.
       </p>
     </div>
     <div class="hide" id="techPage">
-      <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
       <h3 class="technologies-header">Technologies</h3>
-      <p class="beef-later"></p>
+      <div id="html5-container" class="tech-divs">
+        <i class="fab fa-html5 fa-4x"></i>
+        <h6>HTML5</h6>
+        <p>
+          HTML5(hypertext markup language) is a markup language that is used to structure and print content to a webpage. It is the 5th itteration of the technology.
+        </p>
+      </div>
+      <div id="css-container" class="tech-divs">
+        <i class="fab fa-css3-alt fa-4x"></i>
+        <h3>CSS</h3>
+        <p>
+          CSS(cascading style sheet) is a style sheet language meant to seperate the content of the page from presentation. It allows the content of the page to be styled in a manner
+          where is may be more presentable to visitors and easier to view and read.
+        </p>
+      </div>
+      <div id="javascript-container" class="tech-divs">
+        <i class="fab fa-js-square fa-4x"></i>
+        <h3>Javascript</h3>
+        <p>
+          Javascript is a programming language that enables functionailty to a webpage such as click events, events that run when a page is loaded to create various things such as 
+          printing new content to the dom, create or switch styles of content on the page or even running simple time counters or tracking numbers of visits to a page.
+        </p>
+      </div>
+      <div id="jQuery-container" class="tech-divs">
+        <img src="https://img.icons8.com/ios-filled/50/000000/jquery.png" class="jQuery icon"/>
+        <h3>jQuery</h3>
+        <p>
+          Jquery is a javascript library that is used for HTML DOM manipulation, event handling, and CSS animation. it allows for the shortening for certain code writing such as dom selectors.
+        </p>
+      </div>
+      <div id="webpack-container" class="tech-divs">
+        <img src="https://raw.githubusercontent.com/webpack/media/master/logo/logo-on-white-bg.png" class="webpack icon"/>
+        <h3>Webpack</h3>
+        <p>
+          Webpack is an open-source javadcript module bundler. It can also transform front-end elements such as HTML and CSS. it can be used to seperate different components housing various functons
+          that can be exported and imported through various create modules to create shorter easier to read files.
+        </p>
+      </div>
+      <div id="scss-container" class="tech-divs">
+        <i class="fab fa-sass fa-4x"></i>
+        <h3>SCSS</h3>
+        <p>
+          SCSS(syntactically awesome style sheets) is a style sheet language similar to css but can work with modules and import bootstrap and fontawesome libraries.
+        </p>
+      </div>
+      <div id="firebase-container" class="tech-divs">
+        <img src="https://firebase.google.com/images/brand-guidelines/logo-standard.png" class= "firebase icon">
+        <h3>Google Firebase</h3>
+        <p>
+          Firebase is a platform created by google to create mobile and web apps. It can allow you to host your apps, sotre data online, and create authentication for you webapps.
+        </p>
+      </div>
     </div>
     <div class="hide" id="project-page">
       <h3>Projects</h3>
       <div class="fullPage" id="projectsPage"></div>
     </div>
-  <!-- End Primary View -->
 
-  <!-- Footer -->
   <footer class="page-footer contact-footer">
-    <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
     <ul class="contact-info">
-      <li class="email"><Joshua246@gmail.com href="joshua246@gmail.com">Joshua246@gmail.com</a></li>
-      <li class="linked-in"><a href="">www.linkedin.com/don'thaveoneyet</a></li>
-      <li class="twitter"><a href="https://twitter.com/magemedlen">https://twitter.com/magemedlen</a></li>
-      <li class="github"><a href="https://github.com/medlenmage">https://github.com/medlenmage</a></li>
+      <li class="email footer-link"><Joshua246@gmail.com href="joshua246@gmail.com">Joshua246@gmail.com</a></li>
+      <li class="linked-in"><a href="https://www.linkedin.com/in/joshuamedlen/" class="footer-link">https://www.linkedin.com/in/joshuamedlen/</a></li>
+      <li class="twitter footer-link"><a href="https://twitter.com/magemedlen" class="footer-link">https://twitter.com/magemedlen</a></li>
+      <li class="github footer-link"><a href="https://github.com/medlenmage" class="footer-link">https://github.com/medlenmage</a></li>
     </ul>
   </footer>
-  <!-- End Footer -->
 </body>
 </html>
