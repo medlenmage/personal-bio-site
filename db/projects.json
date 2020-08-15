@@ -1,30 +1,21 @@
 {
     "project1": {
-    "title": "pet adoption",
-    "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
-    "description": "This is just a class assignment im using for a filler', // A good project description includes 'the what', 'the why', and 'the how.",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "title": "Nutshell-muntjac",
+    "screenshot": "../../screenshots/whalomVisitor.png",
+    "description": "This was a project encompassing everything our group had learned so far using html, css, scss, javascript, jquery, webpack, and firebase",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, Jquery, scss, webpack, and firebase",
     "available": "true",
-    "url": "https://github.com/medlenmage/jm-pet-adoption",
-    "githubUrl": "https://github.com/medlenmage/jm-pet-adoption"
+    "url": "https://e12-whalom-park.web.app/",
+    "githubUrl": "https://github.com/nss-evening-cohort-12/nutshell-muntjac"
   },
      "project2": {
     "title": "sorting hat",
-    "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
-    "description": "This is just a class assignment im using for a filler",
+    "screenshot": "../../screenshots/sortHat.png",
+    "description": "This solo project is a simple app that takes a name into a form and prints it to the dom in the form of a card. it randomly selects one of the 4 houses from harry potter and assigns it to them",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     "available": "true",
-    "url": "https://github.com/medlenmage/sorting-hat",
+    "url": "https://sorting-hat-a880f.web.app/#",
     "githubUrl": "https://github.com/medlenmage/sorting-hat"
-  },
-    "project3": {
-    "title": "product card site",
-    "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
-    "description": "This is just a class assignment im using for a filler', // A good project description includes 'the what', 'the why', and 'the how",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-    "available": "true",
-    "url": "https://github.com/medlenmage/product-cards",
-    "githubUrl": "https://github.com/medlenmage/product-cards"
   },
     "project4": {
     "title": "Pants Culottes Group Project",
@@ -32,16 +23,16 @@
     "description": "This was a group assignment where u worked with 3 others to create a site showing and selling culotte pants.",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     "available": "true",
-    "url": "https://github.com/medlenmage/pants-culottes",
+    "url": "https://culottes-23c2c.web.app/",
     "githubUrl": "https://github.com/medlenmage/pants-culottes"
   },
   "prjoect5": {
-    "title": "Tamogotchi",
-    "screenshot": "../../../screenshots/tamogotchi.png",
-    "description": "This was a indivual class project that we were tasked to put a simple app resembling the tamogotchi devices of the past.",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, js modules",
+    "title": "Nutshell-chital",
+    "screenshot": "../../../screenshots/clown1.png",
+    "description": "This was a project encompassing everything our group had learned so far using html, css, scss, javascript, jquery, webpack, and firebase",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, Jquery, scss, webpack, and firebase",
     "available": "true",
-    "url": "https://github.com/medlenmage/Tamogotchi",
-    "githubUrl": "https://github.com/medlenmage/Tamogotchi"
+    "url": "https://e12-clown-college.web.app/",
+    "githubUrl": "https://github.com/medlenmage/nutshell-chital"
   }
 }
